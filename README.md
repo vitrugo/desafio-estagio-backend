@@ -1,11 +1,6 @@
-# Desafio Estágio da Convergence Works
-
-Gosta de novas tecnologias e de desafios? Tem espírito de equipe e é comprometido? Você gostaria de colocar tudo isto em prática em uma empresa?
-
 ## API?
 API é um conjunto de normas que possibilita a comunicação entre plataformas através de uma série de padrões e protocolos.Desenvolvedores podem criar novos softwares e aplicativos capazes de se comunicar com outras plataformas.
 Como se trata de uma APIRest ela é fornecida por informações do site [https://www.correio24horas.com.br/rss/].
-
 
 ## Exemplo
 A pasta Contém um arquivo chamado[cliente.php] -> Nele tem um exemplo de como monta a url da API.
@@ -18,25 +13,25 @@ Contem 2 tipos de arquivos, um file [index.php] e uma Pasta [classes].
 ## [Correio.php]
 O desafio foi respondido em torno de onze(11) funções, que são:
 
-1 - [function_show()]
+- 1 - [function_show()]
 Função responsável por mostrar todos os dados em forma de JSON.
-2 - [function_get_data()]
+- 2 - [function_get_data()]
 Função responsável por pegar os dados xml.
-3 - [function_convert_to_json()] 
+- 3 - [function_convert_to_json()] 
 Função responsável por converter os arquivos xml para JSON.
-4 - [function_sort_by_name_ascending()]
+- 4 - [function_sort_by_name_ascending()]
 Função responsável por retornar os dados de forma crescente, utilizando usort e o titulo.
-5 - [function_sort_by_name_descending()]
+- 5 - [function_sort_by_name_descending()]
 Função responsável por retornar os dados de forma decrescente, utilizando usort e o titulo.
-6 - [function_sort_by_ascending_day()]
+- 6 - [function_sort_by_ascending_day()]
 Função responsável por retornar os dados de forma crescente, utilizando usort e a data.
-7 - [function_sort_by_descending_day()]
+- 7 - [function_sort_by_descending_day()]
 Função responsável por retornar os dados de forma crescente, utilizando usort e a data.
-8 - [function_filter_by_category($param)]
+- 8 - [function_filter_by_category($param)]
 Função responsável pela filtragem, tendo como parametro pedido, categoria (category).
-9 - [function_filter_by_limit($param)]
+- 9 - [function_filter_by_limit($param)]
 Função responsável pela filtragem, tendo como parametro pedido, limitar as noticias (aceitar valores de 1 até 20).
-10 - [function_filter_fields()]
+- 10 - [function_filter_fields()]
 Função responsável pela filtragem dos seguintes campos: title, description e pubDate.
 
 Bonus - 11 - [function_filter_text($param)]
