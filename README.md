@@ -2,6 +2,58 @@
 
 Gosta de novas tecnologias e de desafios? Tem espírito de equipe e é comprometido? Você gostaria de colocar tudo isto em prática em uma empresa?
 
+## API?
+API é um conjunto de normas que possibilita a comunicação entre plataformas através de uma série de padrões e protocolos.Desenvolvedores podem criar novos softwares e aplicativos capazes de se comunicar com outras plataformas.
+Como se trata de uma APIRest ela é fornecida por informações do site [https://www.correio24horas.com.br/rss/].
+
+
+## Exemplo
+A pasta Contém um arquivo chamado[cliente.php] -> Nele tem um exemplo de como monta a url da API.
+
+## A pasta api
+Contem 2 tipos de arquivos, um file [index.php] e uma Pasta [classes].
+[index.php] ->Essa página será responsável por identificar o Módulo e o Método que desejamos executar capturando o REQUEST. 
+[classes]-> Comporta o arquivo [Correio.php]-> Nele esta contido as funções que foram pedidas pelo desafio da API.
+
+## [Correio.php]
+O desafio foi respondido em torno de onze(11) funções, que são:
+
+1 - [function_show()]
+Função responsável por mostrar todos os dados em forma de JSON.
+2 - [function_get_data()]
+Função responsável por pegar os dados xml.
+3 - [function_convert_to_json()] 
+Função responsável por converter os arquivos xml para JSON.
+4 - [function_sort_by_name_ascending()]
+Função responsável por retornar os dados de forma crescente, utilizando usort e o titulo.
+5 - [function_sort_by_name_descending()]
+Função responsável por retornar os dados de forma decrescente, utilizando usort e o titulo.
+6 - [function_sort_by_ascending_day()]
+Função responsável por retornar os dados de forma crescente, utilizando usort e a data.
+7 - [function_sort_by_descending_day()]
+Função responsável por retornar os dados de forma crescente, utilizando usort e a data.
+8 - [function_filter_by_category($param)]
+Função responsável pela filtragem, tendo como parametro pedido, categoria (category).
+9 - [function_filter_by_limit($param)]
+Função responsável pela filtragem, tendo como parametro pedido, limitar as noticias (aceitar valores de 1 até 20).
+10 - [function_filter_fields()]
+Função responsável pela filtragem dos seguintes campos: title, description e pubDate.
+
+Bonus - 11 - [function_filter_text($param)]
+Função responsável pela filtragem, se a palavra contém no título ou na descrição.
+
+
+Ps: Todas as filtragens caso não ocorra resposta retorna nulo.
+
+
+
+
+
+
+# Desafio Estágio da Convergence Works
+
+Gosta de novas tecnologias e de desafios? Tem espírito de equipe e é comprometido? Você gostaria de colocar tudo isto em prática em uma empresa?
+
 ## Quem somos?
 Somos a Convergence Works, somos a convergência entre os desafios das empresas e as ideias pra vencê-los. Desenvolvemos plataformas para o mundo digital, com foco em comunicação. Somos especialistas na criação de sites e aplicativos para plataformas de comunicação. Integramos sistema de gestão de conteúdo, aplicativo, disparo de email, solução para clube de assinantes, implantação de editoriais em múltiplas plataformas.
 
